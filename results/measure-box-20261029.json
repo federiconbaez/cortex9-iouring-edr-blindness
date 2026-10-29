@@ -1,0 +1,861 @@
+{
+  "attributed_A_total": 0,
+  "attributed_C_total": 240,
+  "classic_sanity_attributed": {
+    "close": true,
+    "mkdirat": true,
+    "openat": true,
+    "read": true,
+    "renameat": true,
+    "statx": true,
+    "unlinkat": true,
+    "write": true
+  },
+  "classic_sanity_score_A": 1.0,
+  "max_score_A": 0.0,
+  "max_score_C": 1.0,
+  "mean_score_A": 0.0,
+  "mean_score_C": 1.0,
+  "mean_score_C_enter": 1.0,
+  "min_score_A": 0.0,
+  "min_score_C": 1.0,
+  "n_ops_total": 240,
+  "ops": [
+    "openat",
+    "read",
+    "write",
+    "close",
+    "statx",
+    "unlinkat",
+    "renameat",
+    "mkdirat"
+  ],
+  "ops_per_run": 8,
+  "overall_pass": true,
+  "p_value_A_blindness": 5.659799424266737e-73,
+  "pass_p_value": true,
+  "pass_score_A": true,
+  "pass_score_C": true,
+  "per_run": [
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228365 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 0,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228377 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 1,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228389 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 2,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228401 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 3,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228413 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 4,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228425 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 5,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228443 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 6,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228455 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 7,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228467 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 8,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228479 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 9,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228491 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 10,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228503 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 11,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228515 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 12,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228527 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 13,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228539 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 14,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228551 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 15,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228563 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 16,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228575 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 17,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228587 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 18,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228599 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 19,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228611 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 20,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228623 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 21,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228635 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 22,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228647 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 23,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228659 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 24,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228671 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 25,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228683 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 26,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228695 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 27,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228707 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 28,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    },
+    {
+      "attributed_A": {
+        "close": false,
+        "mkdirat": false,
+        "openat": false,
+        "read": false,
+        "renameat": false,
+        "statx": false,
+        "unlinkat": false,
+        "write": false
+      },
+      "attributed_C": {
+        "close": true,
+        "mkdirat": true,
+        "openat": true,
+        "read": true,
+        "renameat": true,
+        "statx": true,
+        "unlinkat": true,
+        "write": true
+      },
+      "enters_raw_head": "enters=13\n228719 io_uring_setup(32, {flags=IORING_SETUP_NO_SQARRAY, sq_thread_cpu=0, sq_thread_idle=0, sq_entries=32, cq_entries=64, features=IORING_FEAT_SINGLE_MMAP|IORING_FEAT_NODROP|IORING_FEAT_SUB",
+      "run": 29,
+      "score_A": 0.0,
+      "score_C": 1.0,
+      "score_C_enter": 1.0
+    }
+  ],
+  "runs": 30,
+  "seed_tag": "box-20261029",
+  "thresholds": {
+    "H0": "each io_uring op attributed by Tracer A with p=0.5",
+    "p_value_max": 0.01,
+    "runs": 30,
+    "score_A_max": 0.25,
+    "score_C_min": 0.9
+  },
+  "tracer_C_note": "score_C is ring-peek (userspace hook on SQE.opcode). A perfect score is by construction of that hook point; CI enforce.yml re-checks with io_uring tracepoints under sudo."
+}

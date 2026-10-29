@@ -1,0 +1,8 @@
+runs=30
+mean_score_A=0.0000 (threshold <= 0.25) OK
+mean_score_C=1.0000 (threshold >= 0.9) OK
+p_value=5.6598e-73 (threshold < 0.01) OK
+attributed_A=0/240
+attributed_C=240/240
+classic_sanity_A=1.0000
+overall=PASS
