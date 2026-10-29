@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edr-blindness"
+version = "0.1.0"
+description = "Harness that scores EDR blindness to benign io_uring file ops"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.scripts]
+edr-blindness = "edr_blindness.measure:main"
+
+[tool.setuptools]
+packages = ["edr_blindness"]

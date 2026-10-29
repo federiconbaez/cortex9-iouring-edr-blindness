@@ -1,0 +1,29 @@
+name: enforce
+
+# Kernel io_uring tracepoints under sudo. MUST fail (non-zero) if unavailable.
+# Never a silent skip.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ftrace:
+    name: Tracer C via io_uring tracepoints
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: deps
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y build-essential liburing-dev strace
+      - name: host capability
+        run: |
+          set -euo pipefail
+          uname -a
+          ls /sys/kernel/tracing/events/io_uring || ls /sys/kernel/debug/tracing/events/io_uring
+      - name: enforce ftrace (sudo, loud failure)
+        run: sudo ./scripts/enforce_ftrace.sh

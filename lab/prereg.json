@@ -1,0 +1,16 @@
+{
+  "idea_id": 60,
+  "slug": "iouring-edr-blindness",
+  "preregistered_at_art": "2026-10-29T15:25:00-03:00",
+  "ops": ["openat", "read", "write", "close", "statx", "unlinkat", "renameat", "mkdirat"],
+  "runs": 30,
+  "thresholds": {
+    "mean_score_A_max": 0.25,
+    "mean_score_C_min": 0.9,
+    "p_value_max": 0.01,
+    "classic_sanity_A_min": 0.9
+  },
+  "H0": "Tracer A attributes each io_uring op independently with p=0.5",
+  "tracer_A": "strace syscall-only with workdir fd/path attribution",
+  "tracer_C": "ringpeek SQE.opcode at submit (by construction); ftrace in enforce.yml"
+}

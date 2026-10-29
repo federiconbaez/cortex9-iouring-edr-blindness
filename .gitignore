@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+dist/
+build/
+.venv/
+c/victim
+results/*.json
+results/*.txt
+!results/.gitkeep
+.work/
